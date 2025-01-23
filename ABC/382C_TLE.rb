@@ -1,6 +1,6 @@
-n, m = gets.chomp.split(" ").map(&:to_i)
-a = gets.chomp.split(" ").map(&:to_i)
-b = gets.chomp.split(" ").map(&:to_i)
+n, m = gets.split.map(&:to_i)
+a = gets.split.map(&:to_i)
+b = gets.split.map(&:to_i)
 
 b.each do |b_num|
   a.each_with_index do |a_num, a_i|
